@@ -1,0 +1,94 @@
+.banner__home {
+    width: 100%;
+    min-height: 700px;
+    color: #fff;
+    display: relative;
+    padding: 10rem 5rem 5rem 5rem;
+    background: transparent;
+}
+
+.banner__home__img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.banner__home__content {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.banner__home_title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+
+.banner__home_subtitle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.banner__home_desc {
+    margin-top: 1rem;
+    font-size: .9em;
+}
+
+.banner__img {
+    width: 59%;
+    position: absolute;
+    bottom: -8rem;
+    right: -16rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .banner__img {
+        width: 50%;
+        position: absolute;
+        bottom: 0rem;
+        right: -10rem;
+        z-index: 0;
+        display: none;
+    }
+    .banner__home__img img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+    }
+    .banner__home {
+        width: 100%;
+        min-height: 550px;
+        color: #fff;
+        display: relative;
+        padding: 10rem 2rem 2rem 2rem;
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner__home {
+        width: 100%;
+        min-height: 550px;
+        color: #fff;
+        display: relative;
+        padding: 5rem 2rem 2rem 2rem;
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner__home_title {
+        color: #fff;
+        font-size: 2.7rem;
+        font-weight: 900;
+    }
+    .banner__home {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .banner__home__img img {
+        width: 80%;
+    }
+}

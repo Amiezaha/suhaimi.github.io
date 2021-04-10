@@ -1,0 +1,23 @@
+html,
+body {
+    background-color: transparent !important;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+    color: #fff !important;
+    padding: 8px 16px;
+}
+
+ul {
+    margin: 0px !important;
+}

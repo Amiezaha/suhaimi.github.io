@@ -1,0 +1,19 @@
+.work__cont{
+    width: 100%;
+    min-height: 700px;
+    color: #fff;
+    display: relative;
+    padding: 8rem 5rem 2rem 5rem;
+    background: #011627;
+}
+
+@media screen and (max-width:767px){
+    .work__cont{
+        width: 100%;
+        min-height: 700px;
+        color: #fff;
+        display: relative;
+        padding: 1rem;
+        background: #011627;
+    }
+}
